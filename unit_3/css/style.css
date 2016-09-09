@@ -1,0 +1,45 @@
+body {
+	background-image: url('../images/textured-background.png');
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+section .footer {
+	background: #A2AAB0;
+}
+
+h1 {
+	color: #4C586F;
+	font-size: 70px;
+}
+
+#slogan {
+	color: #4C586F;
+	font-size: 24px;
+}
+
+article {
+	background: #EBECED;
+	width: 30%;
+	padding: 10px;
+}
+
+.post-title {
+	padding: 10px;
+}
+
+h3 {
+	color: #A2AAB0;
+}
+
+p {
+	color: #3E3E3B;
+}
+
+a {
+	color: #3E3E3B;
+	text-decoration: none;
+}
