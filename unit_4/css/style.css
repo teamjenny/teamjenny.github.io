@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Serif|Poiret+One';
+
+body {
+	background-image: url('../images/textured-background.png');
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+section .footer {
+	background: #A2AAB0;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: #4C586F;
+	font-size: 70px;
+}
+
+#slogan {
+	font-family: 'Poiret One', cursive;
+	color: #4C586F;
+	font-size: 24px;
+}
+
+article {
+	background: #EBECED;
+	width: 30%;
+	padding: 10px;
+}
+
+.post-title {
+	padding: 10px;
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+	color: #A2AAB0;
+}
+
+p {
+	
+	font-family: 'PT Serif', serif;
+	color: #3E3E3B;
+	line-height: 2em; 
+}
+
+a {
+	color: #3E3E3B;
+	text-decoration: none;
+}
