@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Tinos);
+
+* { 
+    padding: 0; 
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-image: url(../images/black-and-white-coffee-cup-apple.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #0A0A0A;
+    height: 720px;
+    padding: 0px;
+}
+
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+main {
+    
+}
+
+footer{
+    font-family: 'Poiret One', cursive;
+    background-color: #0A0A0A;
+    padding: 20px;
+    text-align: center;
+    color: #ececec;
+}
+
+section {
+	background-color: #A1D1E2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 80px;
+    color: #ececec;
+    text-align: center;
+    letter-spacing: .14em;
+    
+    
+    display: block;
+    /*width: 320px;*/    
+    float: right;
+    /*padding: 20px;*/
+    padding: 20px 15px 20px 25px;
+    /*background: blue;*/
+    background: #0A0A0A;
+    margin-top: 200px;
+    margin-right: 55px;
+    border: 5px solid #ececec;
+    /*border-top: 5px solid #ececec;
+    border-bottom: 5px solid #ececec;*/
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    padding: 10px 0;
+    /*background: blue*/;
+}
+
+h3 {
+    font-family: 'Tinos', serif; 
+}
+
+p {
+    font-family: 'Tinos', serif; 
+}
+
+hr {
+    width: 40px;
+    margin: 2px;
+}
+
+section > p {
+
+}
+
+section > img {
+
+}
+
+
+.wrapper {
+	background-color: #fff;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+.clearfix:after{
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:"";
+    display: block;
+    clear:both;
+}
+
+#referees {
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid black;
+    float: left;
+}
