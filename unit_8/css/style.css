@@ -1,0 +1,356 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Tinos);
+
+* { 
+    padding: 0; 
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #0A0A0A;
+}
+
+header img {
+    width: 60%;
+}
+
+nav {
+	background-color: #4c586f;
+    border: 1px black solid;
+    padding: 2em;
+}
+
+article {
+    width: 23%;
+    margin: .5em;
+    float: left;
+    background-color: red;
+}
+
+article img {
+    width: 80.5760%;
+    margin: 0 9.712%;
+    background-color: blue;
+}
+
+footer{
+    font-family: 'Poiret One', cursive;
+    background-color: #0A0A0A;
+    padding: 2em;
+    text-align: center;
+    color: #ececec;
+}
+
+section {
+	background-color: #A1D1E2;
+    border: 1px black solid;
+    padding: 1em;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 80px;
+    color: #ececec;
+    text-align: center;
+    letter-spacing: .14em;
+    
+    
+    display: block;
+    position: relative;
+    float: right;
+    padding: 20px 15px 20px 25px;
+    background: #0A0A0A;
+    border: 5px solid #ececec;
+    margin-top: 2.5em;
+    margin-right: .7em;
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5em;
+    padding: .5em 0;
+}
+
+h3 {
+    font-family: 'Tinos', serif; 
+}
+
+p {
+    font-family: 'Tinos', serif;
+}
+
+article p {
+    line-height: 1.5em;
+}
+
+article h3, h4 {
+    text-align: center;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.education {
+    text-align: center;
+    height: 213px;
+}
+
+.education img {
+    width: 41.2549%;
+    margin: .4em;
+}
+
+.container {
+    padding: 0em .5em;
+}
+
+#referees {
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid black;
+    float: left;
+}
+
+#referees img, div {
+    float: left;
+}
+
+#employmenthistory {
+    background-color: #EBECED;
+}
+
+#achievements {
+    background-color: #a2aab0;
+}
+
+@media screen and (max-width: 1340px) {
+    article {
+        width: 47%;
+        height: 455px;
+    }
+
+    article img {
+        width: 43.3862%;
+        margin: 0 28.3069%;
+    }
+
+    .education {
+        width: 23%;
+        padding: 0em .3em;
+        margin: .3em;
+        height: 213px;
+    }
+}   
+
+@media screen and (max-width: 1325px) {
+    h1 {
+        font-size: 75px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    h1 {
+        margin-top: 2.2em;
+        margin-right: .6em;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    article {
+        width: 47%;
+        height: 485px;
+    }
+
+    article img {
+        width: 48.2247%;
+        margin: 0 25.8876%;
+    }
+
+    h1 {
+        margin-top: 2em;
+        margin-right: .5em;
+    }
+
+    .education img {
+        width: 50.0614%;
+        margin: .4em;
+    }
+
+}
+
+@media screen and (max-width: 975px) {
+    .education {
+        width: 45%;
+    }
+
+    .education img {
+        width: 28.9829%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header img {
+        display: none;
+    }
+    
+    header {
+        background-image: url(../images/black-and-white-coffee-cup-apple-reduced.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: #0A0A0A;
+        height: 500px;
+        padding: 0px;
+    }
+
+    h1 {
+        float: left;
+        border: 5px solid #ececec;
+        margin: 2em 33.4567%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    h1 {
+        margin: 1.7em 30.0026%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+   article {
+        width: 90%;
+        height: 440px; 
+    }
+
+   article img {
+        width: 33.7524%;
+        margin: 0 33.1238%;
+    }
+
+    .education img {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        margin: 1.7em 27.2529%;
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        margin: 1.7em 25.7365%;
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        margin: 1.7em 20%;
+    }    
+}
+
+
+@media screen and (max-width: 600px) {
+    article {
+        width: 90%;
+        height: 400px; 
+    }
+
+    .education img {
+        width: 40%;
+        margin: .7em 0em;
+    }
+
+    h1 {
+        font-size: 62px;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    #referees img {
+        margin: 0 6em 0 0;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin: 1.7em 20.2207%;
+    }
+}
+
+@media screen and (max-width: 497px) {
+        h1 {
+        margin: 1.7em 15%;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .education {
+        width: 90%;
+        height: 236px;
+    }
+
+    .education img {
+        width: 40%;
+        margin: .7em 0em;
+    }
+
+        h1 {
+        font-size: 55px;
+        margin: 1.7em 12%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    article {
+        width: 90%;
+        height: 485px; 
+    }
+
+   article img {
+        width: 52.8400%;
+        margin: 0 23.58%;
+    }
+
+    h1 {
+        font-size: 53px;
+        margin: 1.7em 10%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 52px;
+        margin: 1.7em 8%;
+    }
+
+    article {
+        width: 95%;
+        height: 500px; 
+    }  
+
+    .education {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    h1 {
+        font-size: 52px;
+        margin: 1.7em 6%;
+    }   
+}
